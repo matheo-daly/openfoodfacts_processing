@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "openfoodfacts-processing"
+version = "0.1.0"
+description = "process openfood facts data"
+authors = ["matheo-daly <matheodaly.md@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "openfoodfacts_processing"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+black = "^23.9.1"
+isort = "^5.12.0"
+pandas = "^2.1.0"
+rich = "^13.5.3"
+typedframe = "^0.11.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
