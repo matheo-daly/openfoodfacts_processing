@@ -1,8 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from src.utils.schemas import (EcoscoreDF, FinalProcessedDF, MainColumnsDF,
-                               NutrimentsDF)
+from src.utils.schemas import EcoscoreDF, FinalProcessedDF, MainColumnsDF, NutrimentsDF
 
 
 class FoodDataProcessor:
